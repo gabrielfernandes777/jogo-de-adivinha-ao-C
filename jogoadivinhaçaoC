@@ -20,8 +20,15 @@ int main() {
     
     if(chute==numerosecreto) {
         printf("Voce acertou!\n");
+     
         
     }else{
+        if(chute > numerosecreto){
+            printf("O seu chute foi maior que o numero secreto, tente novamente. \n");
+        if(chute < numerosecreto){
+            printf("O seu chute foi menor que o numero secreto, tente novamente. \n");
+            }
+        }
         printf("Voce errou!\n");
     }    
     }
